@@ -14,16 +14,17 @@ const Navbar = () => {
     
     <img src={logo} alt="logo" className="w-12 h-15"/>
     </div>
-    <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaGithub/>
-        <FaInstagram/>
-        <FaLinkedin/>
+    <div className="m-8 flex items-center justify-center gap-10 text-2xl">
+        <a href="https://github.com/apoorv595" target="_blank" rel="noopener noreferrer" className="icon" ><FaGithub/></a>
+        <a href="https://www.instagram.com/apoorv_gupta_21/?hl=en" target="_blank" rel="noopener noreferrer" className="icon"><FaInstagram/></a>
+        <a href="https://www.linkedin.com/in/apoorv-gupta-1ba829227/" target="_blank" rel="noopener noreferrer" className="icon"><FaLinkedin/></a>
 
 
 
     </div>
    </nav>
   );
+  
 }
 
 export default Navbar
