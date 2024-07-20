@@ -35,9 +35,7 @@ const Hero = () => {
             variants={container(1)}
             initial="hidden"
             animate="visible">
-            I am Computer Science student from CU,I have complete my training of core java from Coursera and create many projects (frontend), research paper.
-
-Technology excites me . Certain skills that I have worked with including data structures and algorithms(java),web development(html,CSS,JS,Reactjs,Tailwind CSS),Machine learning(python),MYSQL.
+           I am a Computer Science student at CU. I have completed my Core Java training on Coursera and created many frontend projects. Technology excites me. I have worked with various skills, including data structures and algorithms (Java), web development (HTML, CSS, JavaScript, React.js, Tailwind CSS), machine learning (Python), and MySQL. I have also authored a research paper.
 
             </motion.p>
           </div>
